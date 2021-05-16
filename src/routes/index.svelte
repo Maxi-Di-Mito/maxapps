@@ -3,15 +3,15 @@
 </script>
 
 <script>
-	
+	import Card from '../lib/Card/index.svelte';
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>MaxApps</title>
 </svelte:head>
 
 <section>
-	
+	<Card title="Truco" description="Un contador de truco argentino" link="/contador-truco" />
 </section>
 
 <style>

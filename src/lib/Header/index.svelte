@@ -4,9 +4,12 @@
 
 <header>
 	<nav>
-		<div class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></div>
+		<div class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Inicio</a></div>
 		<div class:active={$page.path === '/contador-truco'}>
 			<a sveltekit:prefetch href="/contador-truco">Truco</a>
+		</div>
+		<div class:active={$page.path === '/memory'}>
+			<a sveltekit:prefetch href="/memory">Memoria</a>
 		</div>
 	</nav>
 </header>
@@ -18,7 +21,6 @@
 		position: sticky;
 		top: 0;
 		padding: 1em;
-		
 		box-shadow: 0px 0px 15px black;
 	}
 
